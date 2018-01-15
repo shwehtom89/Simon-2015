@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="BIDViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cjk-aI-uLS">
+                                <rect key="frame" x="158" y="166" width="131" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="red-dim.png">
+                                    <color key="titleColor" red="0.21082325880947986" green="0.5873811384349592" blue="0.93060037364130432" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="disabled" image="red-dim.png"/>
+                                <state key="selected" image="red-lit.png"/>
+                                <state key="highlighted" image="red-lit.png"/>
+                                <connections>
+                                    <action selector="redButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kDE-kh-puF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kff-7m-0N8">
+                                <rect key="frame" x="32" y="166" width="140" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="green-dim.png">
+                                    <color key="titleColor" red="0.13768504374784737" green="0.85088488520408156" blue="0.40908292616183378" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="disabled" image="green-dim.png"/>
+                                <state key="selected" image="green-lit.png"/>
+                                <state key="highlighted" image="green-lit.png"/>
+                                <connections>
+                                    <action selector="greenButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Tc9-zI-ZoK"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="red-dim.png" highlightedImage="red-lit.png" translatesAutoresizingMaskIntoConstraints="NO" id="Anm-Hg-1vz">
+                                <rect key="frame" x="158" y="166" width="131" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0fG-we-Czv">
+                                <rect key="frame" x="158" y="286" width="131" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="blue-dim.png">
+                                    <color key="titleColor" red="1" green="0.30339958946083545" blue="0.25996635658341194" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="disabled" image="blue-dim.png"/>
+                                <state key="selected" image="blue-lit.png"/>
+                                <state key="highlighted" image="blue-lit.png"/>
+                                <connections>
+                                    <action selector="blueButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="cUh-5g-j7t"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRL-LE-v6A">
+                                <rect key="frame" x="32" y="286" width="139" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="yellow-dim.png">
+                                    <color key="titleColor" red="0.92195471938775508" green="0.5067429960901928" blue="0.25289446622397621" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="disabled" image="yellow-dim.png"/>
+                                <state key="selected" image="yellow-lit.png"/>
+                                <state key="highlighted" image="yellow-lit.png"/>
+                                <connections>
+                                    <action selector="yellowButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0Jw-uY-bSl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVr-NS-a72">
+                                <rect key="frame" x="115" y="449" width="91" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="New Game">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Start:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="PXL-lX-s7e"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Simon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wke-EC-Fvw">
+                                <rect key="frame" x="46" y="41" width="228" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="71"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hML-k8-OlI">
+                                <rect key="frame" x="121" y="257" width="85" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="52"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blue-dim.png" highlightedImage="blue-lit.png" translatesAutoresizingMaskIntoConstraints="NO" id="y7Y-Ij-JRA">
+                                <rect key="frame" x="158" y="286" width="131" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yellow-dim.png" highlightedImage="yellow-lit.png" translatesAutoresizingMaskIntoConstraints="NO" id="iG9-5C-cHw">
+                                <rect key="frame" x="31" y="286" width="139" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="green-dim.png" highlightedImage="green-lit.png" translatesAutoresizingMaskIntoConstraints="NO" id="85X-el-4Jq">
+                                <rect key="frame" x="31" y="166" width="140" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AIa-Gy-1y1">
+                                <rect key="frame" x="107" y="496" width="107" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Instructions">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="instructions:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ijB-Bh-PE9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.29803922772407532" green="0.29803922772407532" blue="0.29803922772407532" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="blueButton" destination="0fG-we-Czv" id="8QP-15-le7"/>
+                        <outlet property="blueButtonImage" destination="y7Y-Ij-JRA" id="QhF-go-JDV"/>
+                        <outlet property="greenButton" destination="Kff-7m-0N8" id="R74-qZ-BHj"/>
+                        <outlet property="greenButtonImage" destination="85X-el-4Jq" id="x2T-WY-gOF"/>
+                        <outlet property="instructions" destination="AIa-Gy-1y1" id="TEP-0u-Lzn"/>
+                        <outlet property="redButton" destination="cjk-aI-uLS" id="dmp-ct-xrU"/>
+                        <outlet property="redButtonImage" destination="Anm-Hg-1vz" id="hgD-HT-vyA"/>
+                        <outlet property="scoreDisplay" destination="hML-k8-OlI" id="sC4-bg-GDo"/>
+                        <outlet property="yellowButton" destination="sRL-LE-v6A" id="qsC-Zk-z6k"/>
+                        <outlet property="yellowButtonImage" destination="iG9-5C-cHw" id="IC3-yB-fF0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="blue-dim.png" width="131" height="131"/>
+        <image name="blue-lit.png" width="131" height="131"/>
+        <image name="green-dim.png" width="131" height="131"/>
+        <image name="green-lit.png" width="131" height="131"/>
+        <image name="red-dim.png" width="131" height="131"/>
+        <image name="red-lit.png" width="131" height="131"/>
+        <image name="yellow-dim.png" width="131" height="131"/>
+        <image name="yellow-lit.png" width="131" height="131"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
